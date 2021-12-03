@@ -1,0 +1,13 @@
+name: livro
+title: Livro
+username: jcabecas
+account: jcabecas
+server: bookdown.org
+hostUrl: https://bookdown.org/__api__
+appId: 9194
+bundleId: 63674
+url: https://bookdown.org/jcabecas/livro/
+when: 1638551533.8047
+lastSyncTime: 1638551533.80471
+asMultiple: FALSE
+asStatic: FALSE

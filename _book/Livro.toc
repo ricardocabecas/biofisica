@@ -1,0 +1,27 @@
+\contentsline {chapter}{\numberline {1}Unidades, grandezas e análise dimensional}{5}{chapter.1}% 
+\contentsline {section}{\numberline {1.1}Velocidade da luz}{5}{section.1.1}% 
+\contentsline {section}{\numberline {1.2}Sistema Internacional}{5}{section.1.2}% 
+\contentsline {section}{\numberline {1.3}O relógio atómico e a definição de segundo}{6}{section.1.3}% 
+\contentsline {section}{\numberline {1.4}O metro}{6}{section.1.4}% 
+\contentsline {section}{\numberline {1.5}A massa}{7}{section.1.5}% 
+\contentsline {subsection}{\numberline {1.5.1}Definição alternativa de massa}{9}{subsection.1.5.1}% 
+\contentsline {section}{\numberline {1.6}Dimênsões de quantidades comuns}{10}{section.1.6}% 
+\contentsline {section}{\numberline {1.7}Análise dimensional}{11}{section.1.7}% 
+\contentsline {chapter}{\numberline {2}Cinemática unidimênsional}{15}{chapter.2}% 
+\contentsline {section}{\numberline {2.1}Posição, intervalo de tempo, deslocamento}{15}{section.2.1}% 
+\contentsline {subsection}{\numberline {2.1.1}Posição}{15}{subsection.2.1.1}% 
+\contentsline {subsection}{\numberline {2.1.2}Intervalo de Tempo}{16}{subsection.2.1.2}% 
+\contentsline {subsection}{\numberline {2.1.3}Deslocamento}{16}{subsection.2.1.3}% 
+\contentsline {section}{\numberline {2.2}Velocidade}{17}{section.2.2}% 
+\contentsline {subsection}{\numberline {2.2.1}Velocidade média}{17}{subsection.2.2.1}% 
+\contentsline {subsection}{\numberline {2.2.2}Velocidade instantânea}{17}{subsection.2.2.2}% 
+\contentsline {subsection}{\numberline {2.2.3}Velocidade instantânea}{17}{subsection.2.2.3}% 
+\contentsline {section}{\numberline {2.3}Aceleração}{18}{section.2.3}% 
+\contentsline {subsection}{\numberline {2.3.1}Aceleração média}{18}{subsection.2.3.1}% 
+\contentsline {subsection}{\numberline {2.3.2}Aceleração instantânea}{18}{subsection.2.3.2}% 
+\contentsline {chapter}{\numberline {3}Vectores}{21}{chapter.3}% 
+\contentsline {section}{\numberline {3.1}introdução aos vectores}{21}{section.3.1}% 
+\contentsline {section}{\numberline {3.2}Propriedades dos vectores}{21}{section.3.2}% 
+\contentsline {section}{\numberline {3.3}Soma de vectores}{21}{section.3.3}% 
+\contentsline {section}{\numberline {3.4}Multiplicação escalar de vectores}{23}{section.3.4}% 
+\contentsline {chapter}{\numberline {4}Lei de Hooke}{25}{chapter.4}% 

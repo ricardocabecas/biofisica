@@ -1,0 +1,249 @@
+# Unidades, grandezas e análise dimensional
+## Velocidade da luz
+
+Quando observamos e medimos fenómenos da nossa realidade, tentamos atribuir números às quantidade físicas com a maior precisão possível. Por exemplo, queremos detemrinar a velocidade da luz, que pode ser calculada dividindo a distância percorrida por um raio de luz pelo tempo que este a demora a percorrer,
+
+\[veloc.da\ luz=\frac{dist.}{tempo}\]
+
+Em 1983 a \(\textit{General Conference on Weights and Measures}\) definiu a velocidade da luz como sendo
+
+\[c=299792458metros/segundo\]
+Este número foi escolhido para corresponder à medição da velocidade da luz feita com maior precisão, dentro da incerteza experimental.
+
+## Sistema Internacional
+
+As três quatidades, tempo, distância e velocidade da luz, estão directamente interligadas. Que quantidades devemos considerar como "bases" e quais são as quatidades "derivadas"? Por exemplo, serão a distância e o tempo quantidades base enquanto a velocidade é uma quantidade derivada?
+
+A resposta a esta questão é dada por convenção. O sistema básico de unidades usado em ciencia e tecnologia nos dias de hoje é o "*Système International*" (SI). Consite em sete quantidades base e a suas unidades correspondentes.
+
+```{r echo=FALSE}
+library(knitr)
+quantidade=c("distância","massa","tempo","currente eléctrica","temperatura","quantidade de uma substância","intensidade luminosa")
+unidade=c("metro (m)","kilograma (kg)","segundo (s) ","ampere (A)","Kelvin (K)","mole (mol)","candela (cd)")
+tbl=cbind(quantidade,unidade)
+names(tbl)[1]="Quantidade base"
+names(tbl)[2]="Unidade base"
+kable(tbl, col.names = c("Quantidade base","Unidade base"),align = "c", "markdown")
+```
+
+
+## O relógio atómico e a definição de segundo
+
+Na obra \(\textit{Philosophiae Naturalis Principia Mathematica}\), Isaac Newton destinguiu o tempo para uma determinada duração e o tempo absoluto,
+
+"*Absolute true and mathematical time, of itself and from its own nature, flows equably without relation to anything external, and by another name is called duration: relative, apparent, and common time, is some sensible and external (whether accurate or unequable) measure of duration by means of motion, which is commonly used instead of true time; such as an hour, a day, a month, a year.*"
+
+O desenvolvimento de relógios baseados em oscilações atômicas permitiu medidas de tempo com precisão na ordem de 1 parte em 10$^{14}$, correspondendo a erros de menos de um microssegundo (um milionésimo de segundo) por ano. Dada a incrível precisão dessa medida e evidência clara de que os melhores cronometristas disponíveis eram de natureza atómica, o segundo (s) foi redefinido em 1967 pelo Comitê Internacional de Pesos e Medidas como um certo número de ciclos de radiação eletromagnética emitidos por átomos de césio quando fazem transições entre dois estados quânticos designados:
+
+"*Um segundo é a duração de 9192631770 periodos de radiação correspondentes à transição entre dois níveis hiperfinos do estádo fundamental do átomo de césio 133*"
+
+
+## O metro
+
+O metro foi originalmente definido como 1/10.000.000 do arco que tem origem no Equador, segue ao longo do meridiano até ao Pólo Norte, passando por Paris. Para auxiliar na calibração e facilitar a comparação, o metro foi redefinido em termos de uma escala de comprimento gravada numa barra de platina preservada em Paris. õAssim que o laser começou a ter uma utilização mais comum, o metro foi redifinido pela *17ª Conférence Générale des Poids et Mèsures (CGPM)* em 1983 para uma determinada quantidade de comprimentos de onda de um laser monocromático particular.
+
+"*O metro é a distancia percorrida pela luz no vácuo durante o intervalo de tempo de 1/299792458 segundos*"
+
+**Exemplo:** O ano luz é a distância que a luz percorre num ano. Quantos metros percorre a luz num ano?
+
+**Solução:** Usando a relação $$dist. = (veloc. \ da\  luz) . (tempo)$$, um ano luz corresponde a uma distância. Como a velocidade da luz é dada em termos de metros por segundo, precisamos de saber quantos segundos existem num ano. Podemos fazer isto convertendo unidades. Sabemos que
+\[1\ ano\ = 365.25\ dias,1\ dia=24\ horas,1\ hora=60\ minutos,\ 1\ minuto=60\ segundos\]
+
+Fazendo os cálculos sabemos que o número de segundos num ano é de
+
+\[1ano=(365.25\ dias)(\frac{24\ horas}{1\ dia})(\frac{60\ min}{1\ hora})(\frac{60\ s}{1\ min})=31557600\ s\]
+
+Entao, a distância percorrida num ano é
+
+
+\[1al=(\frac{299792458}{1s})(\frac{31557600}{1ano})(1ano)=9,461\times10^{15}m\]
+
+A distância da estrela mais próxima, Alpha Centauri, é de três anos luz
+
+
+## A massa
+
+A unidade de massa, o quilograma (kg), continua a ser a única unidade base no Sistema Internacional de Unidades (SI) que ainda está definido em termos de um artefato físico, conhecido como "Protótipo Internacional do Quilograma Padrão". O protótipo foi feito em 1879 por George Matthey sob a forma de um cilindro de 39 mm de altura e 39 mm de diâmetro, composto por uma liga de 90% de platina e 10% de irídio. O protótipo internacional é mantido no \(\textit{Bureau International des Poids et Mesures (BIPM)}\) em Sevres, França, nas condições especificadas pela 1ª Conferência Geral de Poesias e Misas (CGPM) em 1889, quando sancionou o protótipo e declarou: "Este protótipo será doravante considerado a unidade de massa". O protótipo é mantido num cofre com seis cópias oficiais.
+
+**Exemplo 2: The International Prototype Kilogram** Determine o tipo de forma e dimensões que o protótipo do quilograma de platina-irídio terá, de modo a ter a menor área de superfície para um determinado volume. O quilograma padrão é uma liga de 90% de platina e 10% de irídio. A densidade da liga é \(\rho = 21,56g.cm^{-3}\). Podem-se considerar as seguintes questões:
+
+- Existe alguma razão para que a área de superfície do quilograma padrão seja importante?
+
+- qual é a densidade que se deve usar?
+
+- qual é a forma (cubo, esfera, cilindro, etc) que tem a menor area de superficie para um dado volume?
+
+- porquê a escolha de um cilindro?
+
+**Solução:** O quilograma padrão é uma liga de 90% platina e 10% irídium. A densidae da plantina ´é de \(\rho = 21,45 g.cm^{-3}\) e a densidade do irídium é de \( \rho = 22,55 g.cm^{-3}\). Então a densidade do quilograma padrão é, \[\rho = 21,56g.cm^{-3}\] eo volume é
+
+\[V=m/\rho\cong1000g/22g.cm^{-3}=46,38cm^{3} \]
+
+A corrosão afectaria a mass através de reacções quimicas; a platina e o irídium foram escolhidos para a composição do quiligrama padrão por resistirem à corrosão.
+
+Para minimizar ainda mais a corrosão, a forma deve ser escolhida para ter a menor área de superfície. Idealmente, esta seria uma esfera, mas como as esferas rolam facilmente, tornam-se impraticáveis, enquanto que os cilindros têm superfícies planas que os mantém fixos. O volume para um cilindro é dado por
+
+\[V=\pi r^2h\]
+
+A área de superfície pode ser expressa em função de $r$
+
+\[A=2\pi r^2+2\pi rh=2\pi r^2+\frac{2V}{r}\]
+
+Para encontrar a menor área de superfície, minimizamos a área em função do raio, $r$
+
+\[\frac{dA}{dr}=4\pi r - \frac{2V}{r^2}\]
+
+ficamos com
+
+\[r^3=\frac{V}{2\pi}=\frac{\pi r^2 h}{2 \pi}\]
+
+Assim podemos concluir que o raio é metade da altura
+
+\[r=\frac{h}{2}\]
+
+Para o quilograma padrão, o raio é
+
+\[r=\Big(\frac{V}{2\pi}\Big)^{1/3}=\Big(\frac{46,38\ cm^3}{2\pi}\Big)^{1/3}\cong1,95\ cm\]
+
+### Definição alternativa de massa
+
+Devido ao facto do protótipo do quilograma ser um objecto físico, existem problemas intrinsecos associados, como por exemplo, o protótipo ser danificado ou destruído. O protótipo ganha atomos devido ao ambiente que o rodeia e à sua manutenção. Este ganho de ´átomos traduz-se numa taxa de aproximadamente \(1\mu g/ano\) (\(1\mu g = 1\times10^{-6}g\))
+
+Várias aproximações para definir a unidade da mass est~ão actualmente a serem exploradas. Um possibilidade é definir o kg como um número fixo de átomos, relacionando o kg com massa atómica. O silicone é um bom candidato porque pode ser criado em laboratório, de maneira controlada.
+
+
+**Exemplo 3: Massa de um cristal de silicone**
+
+Uma determinada quantidade de silicone tem um vomule \(V_0\) e contém \(N_0\) átomos. O número de moléculas numa mole de uma substância é dada pela constante de Avogadro \(N_A=6,0221415\times10^{23}\ mole^{-1}\). A massa molar do silicone é dada por \(M_{molar}\). Qual é a massa $m$ de um determinado volume $V$ em função de \(V_0\), \(N_0\), \(V\), \(M_{molar}\) e \(N_A\)
+
+**Solução:** A massa $m_0$ de uma unidade de silicone ´é a densidade $\rho$ do silicon a multiplicar pelo volume da unidade de silicone $V_0$,
+
+$$m_0=\rho V_0$$
+
+O número de moles na unidade é a massa total da unidade, $m_0$, a dividir pela massa molar $M_{molar}$,
+
+$$n_0=m_0/M_{molar}=\rho V_0/M_{molar}$$
+O nºumero de átomos na unidade é o numero de moles, $n_0$, vezes a contaste de Avogadro, $N_A$,
+
+$$N_0=n_0N_A=\frac{\rho V_0 N_A}{M_{molar}}$$
+A densidade do cristal está relacinada com a massa $m$ do cristal dividida pelo volume $V$ do cristal,
+
+$$\rho=m/V$$
+Então o número de átomos poder expresso por,
+
+$$N_0=\frac{mV_0N_A}{VM_{molar}}$$
+e a massa do cristal é
+
+$$m=\frac{M_{molar}}{N_A}\frac{V}{V_0}N_0$$
+
+A massa molar e o volume do cristal podem ser medidos directamente. Olhando para a ultima equação podemos verificar que $M_{molar}/N_A$ é a massa de um átomo e que $(V/V_0)N_0$ é o número de átomos no volume. Esta aproximação está limitada ao problema da medição da constante de Avogadro, $N_A$, com uma incerteza de $1$ parte em $10^8$, que é equivalente à incerteza da anteriaor definição de quilograma
+
+## Dimênsões de quantidades comuns
+
+
+Muitas quantidades físicas são derivadas de quantidades base a partir de relações algébricas que definem a relação física entre essas quantidades. A dimensão da quantidade derivada é escrita como uma potência da dimensão da quantidade base.
+
+Por exemplo, a velocidade é uma quantidade derivada e a sua dimensão é dada pela ralação
+
+\[dim. veloc.=\frac{dist.}{tempo}=D.T^{-1}\]
+
+onde D = distância, T = tempo
+
+A força também é uma quantidade derivada e tem dimensão
+
+\[dim. força =\frac{(massa)(dim.\ veloc.)}{tempo}\]
+
+onde M = massa. Podemos então expressar a força em termos de massa, distância e tempo pela relação 
+
+\[dim. força=\frac{(massa)(dist.)}{(tempo)^2}=M.D.T^{-2}\]
+
+
+A energia cinética (EC) também é uma quantidade derivada
+
+\[dim. EC=(massa).(dim.\ veloc.)^2\]
+
+que em termos de massa, distância e tempo é
+
+\[dim. EC=\frac{(massa)(dist.)^2}{(tempo)^2}=M.D^2.T^{-2}\]
+
+O trabalho deriva da força e da distância
+
+\[dim. trab.=(dim.\ força)(dist.)\]
+
+que em termos das dimensões fundamentais é
+
+
+\[dim. trab.=\frac{(massa)(dist.)^2}{(tempo)^2}=M.D^2.T^{-2}\]
+
+
+Então, podemos afirmar que trabalho e energia cinética têm as mesmas dimensões
+
+```{r results='asis', echo=FALSE }
+d2="$D^2$"
+d3="$D^3$"
+d_3="$D^{-3}$"
+d_1="$D^{-1}$"
+t_1="$T^{-1}$"
+t_2="$T^{-2}$"
+t_3="$T^{-23}$"
+x=c("Ângulo" ,"Área" ,"Volume","Frequência","Velocidade" ,"Aceleração","Velocidade Angular", "Aceleração Angular","Densidade" ,"Momento","Momento Angular" ,"Força","Trabalho, Energia ","Torque","Potência","Pressão" )
+
+b=c("sem dimensão","D^2^","D^3^","T^-1^","D.T^-1^","D.T^-2^","T^-1^","T^-2^","M.D^3^","M.D.T^-1^","M.D^2^.T^-1^","M.D.T^-2^","M.D^2^.T^-2^","M.D^2^.T^-2^","M.D^2^.T^-3^","M.D^-1^.T^-2^")
+
+y=c("radianos","m^2^","m^3^","s^-1^ = Hz","m.s^-1^","m.s^-2^","rad.s^-1^","rad.s^-2^","kg.m^-3^","kg.m.s^-1^","kg.m^2^.s^-1^","kg.m.s^-2^ = N","kg.m^2^.s^-2^ = J","kg.m^2^.s^-2^","kg.m^2^.s^-3^ = W","kg.m^-1^.s^-2^ = Pa")
+n=cbind(x,b,y)
+n=as.data.frame(n)
+names(n)<-c("Quantidade","Dimensão","unidade")
+kable(n,caption = "Dimensões de algumas quantidades")
+```
+
+## Análise dimensional
+
+Existem muitos fenómenos na natureza que podem ser explicados através de simples relações entre os fenómenos observados
+
+
+**Exemplo 4: Período de um pêndulo**
+
+Consideremos um pêndulo simples constituído por uma massa, suspensa a partir de uma ponto fixo por um fio. Seja $T_{período}$ o tempo que o pêndulo demora a completar um ciclo de ida e volta. Quais são as quantidades que definem o pêndulo e quais a quantidades que definem o seu movimento?
+
+**Solução**
+
+Que quantidades estão envolvidas? O comprimento do pêndulo $l$, a massa de pêndulo $m$, a aceleração gravítica $g$ e a amplitude angular $\theta_0$ são as quantidades que se podem relacionar com o pêndulo e o seu movimento. Será que incluímos todas as qualidades possíveis? Primeiro vamos trabalhar com as variáveis que listamos atrás e, caso seja necessário mais alguma variável, teremos que pensar um bocadinho mais!
+
+O nosso problema é então encontrar uma função $f$ tal que
+
+\[T_{periodo}=f(l,m,g,\theta_0)\]
+
+Primeiro, criamos uma lista das dimensões das quantidades como mostra a tabela seguinte. Escolhemos o conjunto: massa, comprimento e tempo, para usar como dimensões da base.
+
+```{r results='asis', echo=FALSE}
+x=c("tempo","comprimento do pêndulo ","massa do pêndulo","aceleração gravítica","amplitude angular")
+y=c("t","l","m","g","\\(\\theta_0\\)")
+z=c("T","L","M","L.T^2^","sem dimensão")
+tt=cbind(x,y,z)
+tt=as.data.frame(tt)
+names(tt)<-c("Nome da quantidade","Simbolo","Fórmula dimensional")
+kable(tt, caption = "Dimensões das quantidade que podem descrever o período de um pêndulo")
+```
+
+
+A primeira observação é que a massa do pêndulo não pode entrar na relação, isto porque a nossa quantidade final não tem dimensão de massa e não existe outra quantidade que possa remover a dimensão de massa do pêndulo. Vamos focar-nos no comprimento do fio e na aceleração gravítica. Para eliminar o comprimento, estas quantidades devem dividir entre elas, para depois podermos igualar o $T_{período}$ com uma variável de dimensão tempo. Escolhamos a combinação $l/g$, as dimensões são
+
+\[dim[l/g]=\frac{comprimento}{\frac{comprimento}{(tempo)^2}}=tempo^2\]
+
+Temos então uma relação que nos diz que o tempo que o pêndulo demora a ir de uma extremidade da sua trajectória à outra extremidade é a raiz quadrada do rácio $l/g$
+A fórmula candidata é
+
+\[T_{período}\sim\Big(\frac{l}{g}\Big)^{1/2}\]
+
+Como a amplitude angular não tem dimensão, pode ou não aparecer na equação. Podemos adicionar uma função $y(\theta_0)$ não nossa equação, só para introduzir a amplitude angular, visto que a análise desta vai para além deste tópico. Assim a equação final fica
+
+\[T_{período}=y(\theta_0)\Big(\frac{l}{g}\Big)^{1/2}\]
+
+que para amplitudes muito pequenas $y(\theta_0)=2\pi$,
+
+$$T_{período}=2\pi\Big(\frac{l}{g}\Big)^{1/2}$$
+
+
+
+

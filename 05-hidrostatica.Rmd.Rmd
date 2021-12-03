@@ -1,0 +1,78 @@
+---
+output:
+  pdf_document: default
+  html_document: default
+---
+
+# Hidrostática
+
+## Introdução
+
+A água está em toda parte, cobrindo 71% da superfície da Terra. O conteúdo de água de um ser humano pode variar entre 45% e 70% do peso corporal. A água pode existir em três estados da matéria: sólido (gelo), líquido ou gasoso. A água flui através de rios, ribeiras, canais de irrigação e canos, para citar alguns. Os humanos tentaram controlar e aproveitar esse fluxo por meio de muitas tecnologias diferentes, como aquedutos, parafuso de Arquimedes, bombas e turbinas de água. A água no estado gasoso também flui. O vapor de água, mais leve que o ar, pode causar correntes de convecção que formam nuvens. No estado líquido, a densidade das moléculas de água é maior do que no estado gasoso, mas em ambos os estados a água pode fluir. A água líquida forma uma superfície, enquanto o vapor de água não. A água, tanto no estado líquido quanto gasoso, é classificada como fluido para distingui-la do estado sólido. Existe alguma ambiguidade no uso do termo fluido. O gelo flui num glaciar, mas muito lentamente. Portanto, por um curto intervalo de tempo em comparação com o intervalo de tempo envolvido no fluxo, o gelo glacial pode ser considerado um sólido. Na linguagem comum, o termo fluido é usado para descrever o estado líquido da matéria, mas um fluido é qualquer estado da matéria que flui quando há uma tensão de cisalhamento aplicada. A viscosidade de um fluido é uma medida da sua resistência à deformação gradual por tensão de cisalhamento ou tensão de tracção.
+
+
+## Densidade
+
+A densidade de uma pequena quantidade de matéria é definida pela quantidade de massa $\Delta M$ dividida pelo volume $\Delta V$ desse elemento de matéria,
+
+\begin{equation}
+\rho=\frac{\Delta M}{\Delta V}
+(\#eq:dens1)
+\end{equation}
+
+A unidade SI para a densidade é o kilograma por métro cúbico [$kg/m^3$]. Se a densidade de um material é igual é todos os seus pontos, então a densidade é dada por
+
+\begin{equation}
+\rho=\frac{M}{V}
+(\#eq:dens2)
+\end{equation}
+
+onde $M$ é a massa do material e $V$ é o volume do material. Um material com densidade constante é chamado de material \textit{homogéneo}. Para um material homogéneo, a densidade é uma propriedade intrínseca. Se dividirmos o matrerial é duas partes, a densidade será a mesma para as duas partes,
+
+\begin{equation}
+\rho=\rho_1=\rho_2
+(\#eq:dens3)
+\end{equation}
+
+Contudo a massa e o volume são propriedades \textit{extrínsecas} do material. se dividirmos o material em duas partes, a massa total do material é a soma das massas das partes
+
+\begin{equation}
+M=M_1+M_2
+(\#eq:dens4)
+\end{equation}
+
+tal como o volume
+
+\begin{equation}
+V=V_1+V_2
+(\#eq:dens5)
+\end{equation}
+
+Na seguinte tabela podemos observar os valores da densidade de vários materiais.
+
+```{r results='asis', echo=FALSE}
+x=c("Hélio","Ar (ao nível do mar)","Esferovite","Madeira","Etanol","Gelo","Água","Água do mar","Sangue","Alumínio","Ferro","Cobre","Chumbo","Mercúrio","Ouro","Plutónio","Ósmio")
+y=c("$0,179$","$1,20$","$75$","$0,7\\times 10^3$","$0.81\\times 10^3$","$0,92\\times 10^3$","$1,0\\times 10^3$","$1,03\\times 10^3$","$1,06\\times 10^3$","$2,7\\times 10^3$","$7,87\\times 10^3$","$8,94\\times 10^3$","$11,34\\times 10^3$","$13,55\\times 10^3$","$19,32\\times 10^3$","$19,84\\times 10^3$","$22,57\\times 10^3$")
+
+tt=cbind(x,y)
+tt=as.data.frame(tt)
+names(tt)<-c("Material","Densidade, $\\rho$ [$kg/m^3$]")
+kable(tt, caption = "Densidade de vários materiais")
+```
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

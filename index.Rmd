@@ -1,0 +1,19 @@
+--- 
+title: "Apontamentos de física"
+author: "Ricardo Cabeças"
+date: "`r Sys.Date()`"
+site: bookdown::bookdown_site
+output: bookdown::html_document2
+bookdown::gitbook:
+  css: "custom.css"
+documentclass: book
+classoption:
+
+lang: pt
+bibliography: [book.bib, packages.bib]
+biblio-style: apalike
+link-citations: yes
+description: "This is a minimal example of using the bookdown package to write a book. The output format for this example is bookdown::gitbook."
+
+---
+

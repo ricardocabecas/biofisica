@@ -17,6 +17,12 @@ eq:dens3
 eq:dens4
 eq:dens5
 tab:unnamed-chunk-4
+fig:imghidros1
+eq:hidros1
+eq:hidros2
+eq:hidros3
+eq:hidros4
+eq:hidros5
 fig:imghemo1
 eq:darcy
 eq:resis
@@ -78,11 +84,3 @@ lei-de-laplace
 a-velocidade-inversamente-relacionada-com-a-área-da-seção-transversal
 elasticidade-e-complacência
 aplicações-clínicas-e-fisiológicas
-tab:unnamed-chunk-1
-fig:imghidros
-fig:imghidros1
-eq:hidros1
-eq:hidros2
-eq:hidros3
-eq:hidros4
-eq:hidros5

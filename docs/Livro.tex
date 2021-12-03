@@ -94,6 +94,20 @@
 \fancyfoot[CE]{\thepage}
 \newcommand{\dd}[1]{\mathrm{d}#1}
 %\fancyfoot[CO,RE]{Author Name}
+\usepackage{booktabs}
+\usepackage{longtable}
+\usepackage{array}
+\usepackage{multirow}
+\usepackage{wrapfig}
+\usepackage{float}
+\usepackage{colortbl}
+\usepackage{pdflscape}
+\usepackage{tabu}
+\usepackage{threeparttable}
+\usepackage{threeparttablex}
+\usepackage[normalem]{ulem}
+\usepackage{makecell}
+\usepackage{xcolor}
 \ifxetex
   % Load polyglossia as late as possible: uses bidi with RTL langages (e.g. Hebrew, Arabic)
   \usepackage{polyglossia}
@@ -807,7 +821,53 @@ Plutónio & \$19,84\textbackslash{}times 10\textasciicircum{}3\$\\
 \hypertarget{pressuxe3o-num-fluido}{%
 \section{Pressão num fluido}\label{pressuxe3o-num-fluido}}
 
-Quando uma força de cisalhamento é aplicada à superfície do fluido, o fluido flui. Quando um fluido é estático, a força em qualquer superfície dentro do fluido deve ser perpendicular (normal) a cada lado dessa superfície. Essa força se deve às colisões entre as moléculas do fluido de um lado da superfície com as moléculas do outro lado. Para um fluido estático, essas forças devem somar zero. Considere uma pequena porção de um fluido estático mostrado na Figura 27.1.
+Quando uma força de cisalhamento é aplicada à superfície do fluido, o fluido flui. Quando um fluido é estático, a força em qualquer superfície dentro do fluido deve ser perpendicular (normal) a cada lado da superfície. Esta força deve-se às colisões entre as moléculas do fluido de um lado da superfície com as moléculas do outro lado. Para um fluido estático, a soma das forças deve ser zero. Considere uma pequena parte de um fluido estático mostrado na Figura \ref{fig:imghidros1}.
+
+A porção do fluido é dividida em duas partes, que designaremos por 1 e 2, por um pequeno elemento de superfície \(S\) de área \(A_S\). A força \(\vec{F}_{1,2}(S)\) na superfície da região 2, devido ás colisões entre as moléculas de 1 e 2, é perpendicular à superfície.
+
+\begin{figure}
+
+{\centering \includegraphics[width=0.7\linewidth]{img/hidros_1} 
+
+}
+
+\caption{Forças numa superfície dentro dum fluido}\label{fig:imghidros1}
+\end{figure}
+
+A força \(\vec{F}_{2,1}(S)\) na superfície da região 1 devido às colisões das moléculas de 1 e 2, segundo a 3ª Lei de Newton
+
+\begin{equation}
+\vec{F}_{1,2}(S)=-\vec{F}_{2,1}(S)
+\label{eq:hidros1}
+\end{equation}
+
+Podemos expressar a magnitude das forças que formam esta interacção por
+
+\begin{equation}
+F_{\perp}(S)=\mid\vec{F}_{1,2}(S)\mid=\mid\vec{F}_{2,1}(S)\mid
+\label{eq:hidros2}
+\end{equation}
+
+A pressão, nos pontos da superfície dentro do fluido pode ser definida por
+
+\begin{equation}
+P\equiv \frac{F_{\perp}(S)}{A_S}
+\label{eq:hidros3}
+\end{equation}
+
+A pressão num ponto da superfície \(S\) é o limite dado por
+
+\begin{equation}
+P=\lim_{A_S \to 0}\frac{F_{\perp}(S)}{A_S}
+\label{eq:hidros4}
+\end{equation}
+
+A unidade SI para a Pressão é {[}\(N/m^2\){]} e é chamada de pascal (Pa), onde a pressão atmosférica num ponto é a força por unidade de área exercida numa pequena superfície contendo aquele ponto, pelo peso do ar acima dessa superfície. Na maioria das circunstâncias, a pressão atmosférica é muito próxima da pressão hidrostática causada pelo peso do ar acima do ponto em questão. Para um determinada área de superfície, se esta área tiver uma baixa pressão, significa que tem menos massa atmosférica em cima, enquanto áreas de alta pressão têm mais massa atmosférica em cima. Da mesma forma, quanto mais alto estivermos, menos massa atmosférica haverá acima de nós, de modo que a pressão atmosférica diminui com o aumento da elevação. Em média, uma coluna de ar de um centímetro quadrado de secção transversal, medida do nível do mar ao topo da atmosfera, tem uma massa de cerca de 1,03 kg de peso, cerca de 10,1 N. A atmosfera padrão {[}\(atm\){]} é uma unidade de pressão tal que
+
+\begin{equation}
+1 \hspace{0.1cm}atm = 1,01325 \times 10^5 \hspace{0.1cm} Pa = 1,01325 \hspace{0.1cm}bar
+\label{eq:hidros5}
+\end{equation}
 
 \hypertarget{hidrodinuxe2mica}{%
 \chapter{Hidrodinâmica}\label{hidrodinuxe2mica}}

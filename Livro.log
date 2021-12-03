@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.999991 (TeX Live 2019) (preloaded format=xelatex 2020.1.13)  3 DEC 2021 21:36
+This is XeTeX, Version 3.14159265-2.6-0.999991 (TeX Live 2019) (preloaded format=xelatex 2020.1.13)  3 DEC 2021 22:38
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -988,6 +988,107 @@ Package: subcaption 2018/05/01 v1.1-162 Sub-captions (AR)
 \c@subtable=\count327
 ) (/usr/local/texlive/2019/texmf-dist/tex/latex/setspace/setspace.sty
 Package: setspace 2011/12/19 v6.7a set line spacing
+) (/usr/local/texlive/2019/texmf-dist/tex/latex/tools/array.sty
+Package: array 2018/12/30 v2.4k Tabular extension package (FMi)
+\col@sep=\dimen288
+\ar@mcellbox=\box65
+\extrarowheight=\dimen289
+\NC@list=\toks35
+\extratabsurround=\skip69
+\backup@length=\skip70
+\ar@cellbox=\box66
+) (/usr/local/texlive/2019/texmf-dist/tex/latex/multirow/multirow.sty
+Package: multirow 2019/01/01 v2.4 Span multiple rows of a table
+\multirow@colwidth=\skip71
+\multirow@cntb=\count328
+\multirow@dima=\skip72
+\bigstrutjot=\dimen290
+) (/usr/local/texlive/2019/texmf-dist/tex/latex/wrapfig/wrapfig.sty
+\wrapoverhang=\dimen291
+\WF@size=\dimen292
+\c@WF@wrappedlines=\count329
+\WF@box=\box67
+\WF@everypar=\toks36
+Package: wrapfig 2003/01/31  v 3.6
+) (/usr/local/texlive/2019/texmf-dist/tex/latex/float/float.sty
+Package: float 2001/11/08 v1.3d Float enhancements (AL)
+\c@float@type=\count330
+\float@exts=\toks37
+\float@box=\box68
+\@float@everytoks=\toks38
+\@floatcapt=\box69
+) (/usr/local/texlive/2019/texmf-dist/tex/latex/colortbl/colortbl.sty
+Package: colortbl 2018/12/12 v1.0d Color table columns (DPC)
+\everycr=\toks39
+\minrowclearance=\skip73
+) (/usr/local/texlive/2019/texmf-dist/tex/latex/oberdiek/pdflscape.sty
+Package: pdflscape 2016/05/14 v0.11 Display of landscape pages in PDF (HO)
+(/usr/local/texlive/2019/texmf-dist/tex/latex/graphics/lscape.sty
+Package: lscape 2000/10/22 v3.01 Landscape Pages (DPC)
+)
+Package pdflscape Info: Auto-detected driver: dvipdfm (xetex) on input line 99.
+
+) (/usr/local/texlive/2019/texmf-dist/tex/latex/tabu/tabu.sty
+Package: tabu 2019/01/11 v2.9 - flexible LaTeX tabulars (FC+tabu-fixed)
+(/usr/local/texlive/2019/texmf-dist/tex/latex/varwidth/varwidth.sty
+Package: varwidth 2009/03/30 ver 0.92;  Variable-width minipages
+\@vwid@box=\box70
+\sift@deathcycles=\count331
+\@vwid@loff=\dimen293
+\@vwid@roff=\dimen294
+)
+\c@taburow=\count332
+\tabu@nbcols=\count333
+\tabu@cnt=\count334
+\tabu@Xcol=\count335
+\tabu@alloc=\count336
+\tabu@nested=\count337
+\tabu@target=\dimen295
+\tabu@spreadtarget=\dimen296
+\tabu@naturalX=\dimen297
+\tabucolX=\dimen298
+\tabu@Xsum=\dimen299
+\extrarowdepth=\dimen300
+\abovetabulinesep=\dimen301
+\belowtabulinesep=\dimen302
+\tabustrutrule=\dimen303
+\tabu@thebody=\toks40
+\tabu@footnotes=\toks41
+\tabu@box=\box71
+\tabu@arstrutbox=\box72
+\tabu@hleads=\box73
+\tabu@vleads=\box74
+\tabu@cellskip=\skip74
+)
+(/usr/local/texlive/2019/texmf-dist/tex/latex/threeparttable/threeparttable.sty
+Package: threeparttable 2003/06/13  v 3.0
+\@tempboxb=\box75
+)
+(/usr/local/texlive/2019/texmf-dist/tex/latex/threeparttablex/threeparttablex.s
+ty
+Package: threeparttablex 2013/07/23 v0.3 by daleif
+(/usr/local/texlive/2019/texmf-dist/tex/latex/environ/environ.sty
+Package: environ 2014/05/04 v0.3 A new way to define environments
+(/usr/local/texlive/2019/texmf-dist/tex/latex/trimspaces/trimspaces.sty
+Package: trimspaces 2009/09/17 v1.1 Trim spaces around a token list
+))
+\TPTL@width=\skip75
+) (/usr/local/texlive/2019/texmf-dist/tex/generic/ulem/ulem.sty
+\UL@box=\box76
+\UL@hyphenbox=\box77
+\UL@skip=\skip76
+\UL@hook=\toks42
+\UL@height=\dimen304
+\UL@pe=\count338
+\UL@pixel=\dimen305
+\ULC@box=\box78
+Package: ulem 2012/05/18
+\ULdepth=\dimen306
+) (/usr/local/texlive/2019/texmf-dist/tex/latex/makecell/makecell.sty
+Package: makecell 2009/08/03 V0.1e Managing of Tab Column Heads and Cells
+\rotheadsize=\dimen307
+\c@nlinenum=\count339
+\TeXr@lab=\toks43
 ) (/usr/local/texlive/2019/texmf-dist/tex/latex/polyglossia/polyglossia.sty
 Package: polyglossia 2019/04/04 v1.44 Alternative to Babel for XeLaTeX and LuaL
 aTeX
@@ -997,10 +1098,10 @@ Package: makecmds 2009/09/03 v1.0a extra command making commands
 Package: xkeyval 2014/12/03 v2.7a package option processing (HA)
 (/usr/local/texlive/2019/texmf-dist/tex/generic/xkeyval/xkeyval.tex (/usr/local
 /texlive/2019/texmf-dist/tex/generic/xkeyval/xkvutils.tex
-\XKV@toks=\toks35
-\XKV@tempa@toks=\toks36
+\XKV@toks=\toks44
+\XKV@tempa@toks=\toks45
 )
-\XKV@depth=\count328
+\XKV@depth=\count340
 File: xkeyval.tex 2014/12/03 v2.7a key=value parser (HA)
 ))
 \xpg@normalclass=\XeTeXcharclass1
@@ -1008,51 +1109,51 @@ File: xkeyval.tex 2014/12/03 v2.7a key=value parser (HA)
 
 Package polyglossia Warning: File gloss-portuguese.ldf does not exist!
 (polyglossia)                I will nevertheless try to use hyphenation pattern
-s for portuguese. on input line 100.
+s for portuguese. on input line 114.
 
 (/usr/local/texlive/2019/texmf-dist/tex/latex/natbib/natbib.sty
 Package: natbib 2010/09/13 8.31b (PWD, AO)
-\bibhang=\skip69
-\bibsep=\skip70
+\bibhang=\skip77
+\bibsep=\skip78
 LaTeX Info: Redefining \cite on input line 694.
-\c@NAT@ctr=\count329
+\c@NAT@ctr=\count341
 ) (./Livro.aux)
 \openout1 = `Livro.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 114.
-LaTeX Font Info:    ... okay on input line 114.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 114.
-LaTeX Font Info:    ... okay on input line 114.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 114.
-LaTeX Font Info:    ... okay on input line 114.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 114.
-LaTeX Font Info:    ... okay on input line 114.
-LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 114.
-LaTeX Font Info:    ... okay on input line 114.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 114.
-LaTeX Font Info:    ... okay on input line 114.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 114.
-LaTeX Font Info:    ... okay on input line 114.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 114.
-LaTeX Font Info:    ... okay on input line 114.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 114.
-LaTeX Font Info:    ... okay on input line 114.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 114.
-LaTeX Font Info:    ... okay on input line 114.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 128.
+LaTeX Font Info:    ... okay on input line 128.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 128.
+LaTeX Font Info:    ... okay on input line 128.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 128.
+LaTeX Font Info:    ... okay on input line 128.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 128.
+LaTeX Font Info:    ... okay on input line 128.
+LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 128.
+LaTeX Font Info:    ... okay on input line 128.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 128.
+LaTeX Font Info:    ... okay on input line 128.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 128.
+LaTeX Font Info:    ... okay on input line 128.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 128.
+LaTeX Font Info:    ... okay on input line 128.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 128.
+LaTeX Font Info:    ... okay on input line 128.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 128.
+LaTeX Font Info:    ... okay on input line 128.
 LaTeX Font Info:    Overwriting math alphabet `\mathrm' in version `normal'
-(Font)                  OT1/lmr/m/n --> TU/lmr/m/n on input line 114.
+(Font)                  OT1/lmr/m/n --> TU/lmr/m/n on input line 128.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `normal'
-(Font)                  OT1/lmr/m/it --> TU/lmr/m/it on input line 114.
+(Font)                  OT1/lmr/m/it --> TU/lmr/m/it on input line 128.
 LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `normal'
-(Font)                  OT1/lmr/bx/n --> TU/lmr/bx/n on input line 114.
+(Font)                  OT1/lmr/bx/n --> TU/lmr/bx/n on input line 128.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `normal'
-(Font)                  OT1/lmss/m/n --> TU/lmss/m/n on input line 114.
+(Font)                  OT1/lmss/m/n --> TU/lmss/m/n on input line 128.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
-(Font)                  OT1/lmss/bx/n --> TU/lmss/bx/n on input line 114.
+(Font)                  OT1/lmss/bx/n --> TU/lmss/bx/n on input line 128.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `normal'
-(Font)                  OT1/lmtt/m/n --> TU/lmtt/m/n on input line 114.
+(Font)                  OT1/lmtt/m/n --> TU/lmtt/m/n on input line 128.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
-(Font)                  OT1/lmtt/m/n --> TU/lmtt/bx/n on input line 114.
+(Font)                  OT1/lmtt/m/n --> TU/lmtt/bx/n on input line 128.
 
 Package fontspec Info: latinmodern-math scale = 1.
 
@@ -1081,7 +1182,7 @@ DFLT;"
 (fontspec)             - 'bold small caps'  (bx/sc) with NFSS spec.: 
 
 LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(0)/m/n' will be
-(Font)              scaled to size 10.0pt on input line 114.
+(Font)              scaled to size 10.0pt on input line 128.
 
 Package fontspec Info: latinmodern-math scale = 1.
 
@@ -1119,18 +1220,18 @@ DFLT;"
 (fontspec)             - 'bold small caps'  (bx/sc) with NFSS spec.: 
 
 LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(1)/m/n' will be
-(Font)              scaled to size 10.0pt on input line 114.
+(Font)              scaled to size 10.0pt on input line 128.
 LaTeX Font Info:    Encoding `OT1' has changed to `TU' for symbol font
-(Font)              `operators' in the math version `normal' on input line 114.
+(Font)              `operators' in the math version `normal' on input line 128.
 
 LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
 (Font)                  OT1/lmr/m/n --> TU/latinmodern-math.otf(1)/m/n on input
- line 114.
+ line 128.
 LaTeX Font Info:    Encoding `OT1' has changed to `TU' for symbol font
-(Font)              `operators' in the math version `bold' on input line 114.
+(Font)              `operators' in the math version `bold' on input line 128.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
 (Font)                  OT1/lmr/bx/n --> TU/latinmodern-math.otf(1)/bx/n on inp
-ut line 114.
+ut line 128.
 
 Package fontspec Info: latinmodern-math scale = 1.
 
@@ -1217,15 +1318,15 @@ uage=DFLT;"
 (fontspec)             \fontdimen 21\font =0pt\relax 
 
 LaTeX Font Info:    Encoding `OMS' has changed to `TU' for symbol font
-(Font)              `symbols' in the math version `normal' on input line 114.
+(Font)              `symbols' in the math version `normal' on input line 128.
 LaTeX Font Info:    Overwriting symbol font `symbols' in version `normal'
 (Font)                  OMS/lmsy/m/n --> TU/latinmodern-math.otf(2)/m/n on inpu
-t line 114.
+t line 128.
 LaTeX Font Info:    Encoding `OMS' has changed to `TU' for symbol font
-(Font)              `symbols' in the math version `bold' on input line 114.
+(Font)              `symbols' in the math version `bold' on input line 128.
 LaTeX Font Info:    Overwriting symbol font `symbols' in version `bold'
 (Font)                  OMS/lmsy/b/n --> TU/latinmodern-math.otf(2)/bx/n on inp
-ut line 114.
+ut line 128.
 
 Package fontspec Info: latinmodern-math scale = 1.
 
@@ -1295,17 +1396,17 @@ uage=DFLT;"
 
 LaTeX Font Info:    Encoding `OMX' has changed to `TU' for symbol font
 (Font)              `largesymbols' in the math version `normal' on input line 1
-14.
+28.
 LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `normal'
 (Font)                  OMX/lmex/m/n --> TU/latinmodern-math.otf(3)/m/n on inpu
-t line 114.
+t line 128.
 LaTeX Font Info:    Encoding `OMX' has changed to `TU' for symbol font
-(Font)              `largesymbols' in the math version `bold' on input line 114
+(Font)              `largesymbols' in the math version `bold' on input line 128
 .
 LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `bold'
 (Font)                  OMX/lmex/m/n --> TU/latinmodern-math.otf(3)/bx/n on inp
-ut line 114.
-LaTeX Info: Redefining \microtypecontext on input line 114.
+ut line 128.
+LaTeX Info: Redefining \microtypecontext on input line 128.
 Package microtype Info: Character protrusion enabled (level 2).
 Package microtype Info: Using protrusion set `basicmath'.
 Package microtype Info: No adjustment of tracking.
@@ -1316,18 +1417,18 @@ Package microtype Info: No adjustment of kerning.
 File: mt-LatinModernRoman.cfg 2013/03/13 v1.0 microtype config. file: Latin Mod
 ern Roman (RS)
 )
-\AtBeginShipoutBox=\box65
-Package hyperref Info: Link coloring OFF on input line 114.
+\AtBeginShipoutBox=\box79
+Package hyperref Info: Link coloring OFF on input line 128.
 (/usr/local/texlive/2019/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2016/05/21 v2.44 Cross-referencing by name of section
 (/usr/local/texlive/2019/texmf-dist/tex/generic/oberdiek/gettitlestring.sty
 Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
 )
-\c@section@level=\count330
+\c@section@level=\count342
 )
-LaTeX Info: Redefining \ref on input line 114.
-LaTeX Info: Redefining \pageref on input line 114.
-LaTeX Info: Redefining \nameref on input line 114.
+LaTeX Info: Redefining \ref on input line 128.
+LaTeX Info: Redefining \pageref on input line 128.
+LaTeX Info: Redefining \nameref on input line 128.
 *geometry* driver: auto-detecting
 *geometry* detected driver: xetex
 *geometry* verbose mode - [ preamble ] result:
@@ -1364,30 +1465,33 @@ LaTeX Info: Redefining \nameref on input line 114.
 
 ABD: EveryShipout initializing macros
 Package caption Info: Begin \AtBeginDocument code.
+Package caption Info: float package is loaded.
+Package caption Info: threeparttable package is loaded.
+Package caption Info: wrapfig package is loaded.
 Package caption Info: End \AtBeginDocument code.
 LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(1)/m/n' will be
-(Font)              scaled to size 12.0pt on input line 116.
+(Font)              scaled to size 12.0pt on input line 130.
 LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(1)/m/n' will be
-(Font)              scaled to size 8.0pt on input line 116.
+(Font)              scaled to size 8.0pt on input line 130.
 LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(1)/m/n' will be
-(Font)              scaled to size 6.0pt on input line 116.
-LaTeX Font Info:    Try loading font information for OML+lmm on input line 116.
+(Font)              scaled to size 6.0pt on input line 130.
+LaTeX Font Info:    Try loading font information for OML+lmm on input line 130.
 
 (/usr/local/texlive/2019/texmf-dist/tex/latex/lm/omllmm.fd
 File: omllmm.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
 LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(2)/m/n' will be
-(Font)              scaled to size 12.00128pt on input line 116.
+(Font)              scaled to size 12.00128pt on input line 130.
 LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(2)/m/n' will be
-(Font)              scaled to size 8.00085pt on input line 116.
+(Font)              scaled to size 8.00085pt on input line 130.
 LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(2)/m/n' will be
-(Font)              scaled to size 6.00064pt on input line 116.
+(Font)              scaled to size 6.00064pt on input line 130.
 LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(3)/m/n' will be
-(Font)              scaled to size 11.99872pt on input line 116.
+(Font)              scaled to size 11.99872pt on input line 130.
 LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(3)/m/n' will be
-(Font)              scaled to size 7.99915pt on input line 116.
+(Font)              scaled to size 7.99915pt on input line 130.
 LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(3)/m/n' will be
-(Font)              scaled to size 5.99936pt on input line 116.
+(Font)              scaled to size 5.99936pt on input line 130.
 [1
 
 
@@ -1475,13 +1579,13 @@ File: img/lei_de_hooke_1.png Graphic file (type bmp)
 File: img/lei_de_hooke_2.png Graphic file (type bmp)
 <img/lei_de_hooke_2.png>
 
-LaTeX Warning: Reference `fig:img8' on page 26 undefined on input line 693.
+LaTeX Warning: Reference `fig:img8' on page 26 undefined on input line 707.
 
 [26]
 File: img/lei_de_hooke_3.png Graphic file (type bmp)
 <img/lei_de_hooke_3.png>
 
-LaTeX Warning: Reference `fig:img9' on page 27 undefined on input line 704.
+LaTeX Warning: Reference `fig:img9' on page 27 undefined on input line 718.
 
 File: img/lei_de_hooke_4.png Graphic file (type bmp)
 <img/lei_de_hooke_4.png>
@@ -1492,11 +1596,14 @@ Chapter 5.
 
 Underfull \vbox (badness 1107) has occurred while \output is active []
 
-[29] [30] [31] [32
-
-]
+[29]
+File: img/hidros_1.png Graphic file (type bmp)
+<img/hidros_1.png>
+[30] [31] [32]
 Chapter 6.
-[33] [34
+[33
+
+] [34
 
 ]
 Chapter 7.
@@ -1547,21 +1654,21 @@ File: img/hemo_10.png Graphic file (type bmp)
 [49] [50]
 No file Livro.bbl.
 [51] [52]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 1092.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 1092.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 1152.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 1152.
 (./Livro.aux)
-Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 1092.
-Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 1092.
+Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 1152.
+Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 1152.
 
 LaTeX Warning: There were undefined references.
 
  ) 
 Here is how much of TeX's memory you used:
- 39302 strings out of 492916
- 749409 string characters out of 6133345
- 962255 words of memory out of 5000000
- 42842 multiletter control sequences out of 15000+600000
- 536268 words of font info for 67 fonts, out of 8000000 for 9000
+ 40623 strings out of 492916
+ 768091 string characters out of 6133345
+ 989418 words of memory out of 5000000
+ 44106 multiletter control sequences out of 15000+600000
+ 536374 words of font info for 68 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
  66i,12n,115p,1490b,446s stack positions out of 5000i,500n,10000p,200000b,80000s
 

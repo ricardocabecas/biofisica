@@ -66,6 +66,7 @@ lei-de-hooke
 hidrostática
 introdução
 densidade
+pressão-num-fluido
 hidrodinâmica
 hemodinâmica
 o-fluxo-sanguíneo-é-uma-função-da-diferença-de-pressão-e-resistência

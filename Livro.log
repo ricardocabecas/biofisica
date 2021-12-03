@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.999991 (TeX Live 2019) (preloaded format=xelatex 2020.1.13)  3 DEC 2021 19:40
+This is XeTeX, Version 3.14159265-2.6-0.999991 (TeX Live 2019) (preloaded format=xelatex 2020.1.13)  3 DEC 2021 21:36
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1410,6 +1410,9 @@ LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(3)/m/n' will be
 (Font)              scaled to size 6.99925pt on input line 2.
 LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(3)/m/n' will be
 (Font)              scaled to size 4.99947pt on input line 2.
+
+Underfull \vbox (badness 1796) has occurred while \output is active []
+
 [3])
 \tf@toc=\write4
 \openout4 = `Livro.toc'.
@@ -1544,20 +1547,20 @@ File: img/hemo_10.png Graphic file (type bmp)
 [49] [50]
 No file Livro.bbl.
 [51] [52]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 1087.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 1087.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 1092.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 1092.
 (./Livro.aux)
-Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 1087.
-Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 1087.
+Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 1092.
+Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 1092.
 
 LaTeX Warning: There were undefined references.
 
  ) 
 Here is how much of TeX's memory you used:
- 39300 strings out of 492916
- 749380 string characters out of 6133345
- 962209 words of memory out of 5000000
- 42840 multiletter control sequences out of 15000+600000
+ 39302 strings out of 492916
+ 749409 string characters out of 6133345
+ 962255 words of memory out of 5000000
+ 42842 multiletter control sequences out of 15000+600000
  536268 words of font info for 67 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
  66i,12n,115p,1490b,446s stack positions out of 5000i,500n,10000p,200000b,80000s

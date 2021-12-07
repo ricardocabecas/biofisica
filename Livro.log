@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.999991 (TeX Live 2019) (preloaded format=xelatex 2020.1.13)  3 DEC 2021 22:45
+This is XeTeX, Version 3.14159265-2.6-0.999991 (TeX Live 2019) (preloaded format=xelatex 2020.1.13)  7 DEC 2021 18:50
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1514,9 +1514,6 @@ LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(3)/m/n' will be
 (Font)              scaled to size 6.99925pt on input line 2.
 LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(3)/m/n' will be
 (Font)              scaled to size 4.99947pt on input line 2.
-
-Underfull \vbox (badness 1796) has occurred while \output is active []
-
 [3])
 \tf@toc=\write4
 \openout4 = `Livro.toc'.
@@ -1599,77 +1596,101 @@ Underfull \vbox (badness 1107) has occurred while \output is active []
 [29]
 File: img/hidros_1.png Graphic file (type bmp)
 <img/hidros_1.png>
-[30] [31] [32]
+[30] [31]
+File: img/hidros_2.png Graphic file (type bmp)
+<img/hidros_2.png>
+LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(1)/bx/n' will be
+(Font)              scaled to size 10.0pt on input line 886.
+LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(1)/bx/n' will be
+(Font)              scaled to size 7.0pt on input line 886.
+LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(1)/bx/n' will be
+(Font)              scaled to size 5.0pt on input line 886.
+LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(2)/bx/n' will be
+(Font)              scaled to size 10.00107pt on input line 886.
+LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(2)/bx/n' will be
+(Font)              scaled to size 7.00075pt on input line 886.
+LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(2)/bx/n' will be
+(Font)              scaled to size 5.00053pt on input line 886.
+LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(3)/bx/n' will be
+(Font)              scaled to size 9.99893pt on input line 886.
+LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(3)/bx/n' will be
+(Font)              scaled to size 6.99925pt on input line 886.
+LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(3)/bx/n' will be
+(Font)              scaled to size 4.99947pt on input line 886.
+[32]
+File: img/hidros_3.png Graphic file (type bmp)
+<img/hidros_3.png>
+[33] [34]
 Chapter 6.
-[33
+[35
 
-] [34
+] [36
 
 ]
 Chapter 7.
 File: img/hemo_1.png Graphic file (type bmp)
 <img/hemo_1.png>
-[35] [36]
+[37] [38]
 Missing character: There is no 𝛥 in font [lmroman10-regular]:mapping=tex-text;!
 
 Underfull \vbox (badness 1803) has occurred while \output is active []
 
-[37]
+[39]
 Missing character: There is no º in font lmmi10!
 Missing character: There is no º in font lmmi10!
-[38]
+[40]
 Missing character: There is no ∼ in font [lmroman10-regular]:mapping=tex-text;!
 File: img/hemo_2.png Graphic file (type bmp)
 <img/hemo_2.png>
-[39] [40]
+[41] [42]
 File: img/hemo_3.png Graphic file (type bmp)
 <img/hemo_3.png>
-[41]
+[43]
 Missing character: There is no ∼ in font [lmroman10-regular]:mapping=tex-text;!
 Missing character: There is no ∼ in font [lmroman10-regular]:mapping=tex-text;!
 
 Underfull \vbox (badness 4673) has occurred while \output is active []
 
-[42]
+[44]
 File: img/hemo_4.png Graphic file (type bmp)
 <img/hemo_4.png>
-[43]
+[45]
 File: img/hemo_5.png Graphic file (type bmp)
 <img/hemo_5.png>
 
 Underfull \vbox (badness 3536) has occurred while \output is active []
 
-[44] [45]
+[46] [47]
 File: img/hemo_6.png Graphic file (type bmp)
 <img/hemo_6.png>
 File: img/hemo_7.png Graphic file (type bmp)
 <img/hemo_7.png>
 File: img/hemo_8.png Graphic file (type bmp)
 <img/hemo_8.png>
-[46] [47] [48]
+[48] [49] [50]
 File: img/hemo_9.png Graphic file (type bmp)
 <img/hemo_9.png>
 File: img/hemo_10.png Graphic file (type bmp)
 <img/hemo_10.png>
-[49] [50]
-No file Livro.bbl.
 [51] [52]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 1152.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 1152.
+No file Livro.bbl.
+[53] [54]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 1228.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 1228.
 (./Livro.aux)
-Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 1152.
-Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 1152.
+Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 1228.
+Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 1228.
 
 LaTeX Warning: There were undefined references.
 
  ) 
 Here is how much of TeX's memory you used:
- 40623 strings out of 492916
- 768091 string characters out of 6133345
- 989418 words of memory out of 5000000
- 44106 multiletter control sequences out of 15000+600000
- 536374 words of font info for 68 fonts, out of 8000000 for 9000
+ 40683 strings out of 492916
+ 769704 string characters out of 6133345
+ 990942 words of memory out of 5000000
+ 44151 multiletter control sequences out of 15000+600000
+ 537843 words of font info for 79 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
  66i,12n,115p,1490b,446s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on Livro.pdf (52 pages).
+Output written on Livro.pdf (54 pages).

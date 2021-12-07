@@ -113,3 +113,106 @@ A unidade SI para a Pressão é [$N/m^2$] e é chamada de pascal (Pa), onde a pr
 1 \hspace{0.1cm}atm = 1,01325 \times 10^5 \hspace{0.1cm} Pa = 1,01325 \hspace{0.1cm}bar
 (\#eq:hidros5)
 \end{equation}
+
+
+## Lei de Pascal
+
+Consideremos um fluido estático com densidade uniforme $\rho$. Vamos escolher um sistema de coordenadas tal que o eixo do $z$ tem sentido positivo de cima para baixo e o ponto $z=0$ está situado na superfície do fluido. Vamos escolher um elemento desse fluido com volume cilíndrico infinitesimal a uma profundidade $z$ com uma área de secção $A$ e uma espessura $dz$ como mostra a figura  \@ref(fig:imghidros2). O volume do elemtno é $dV=Adz$ ea massa do fluido contida no elemento é de $dM=\rho Adz$
+
+
+
+
+```{r imghidros2, fig.cap='sistemas de coordenadas para um fluido estático', out.width='70%',fig.align='center', echo=FALSE}
+knitr::include_graphics("img/hidros_2.png")
+
+```
+
+
+A superfície do cilindro infinitesimal tem 3 faces, a face superior, inferior e lateral. Como o fluido está estático, as forças que actuam no cilindro infinitesimal são aplicadas perpendicularmente às faces, no sentido de fora para dentro. A força resultante destas forças é zero. A força que actua na superfície superior é $\vec{F}(z)=F(z)\boldsymbol{\hat{k}}$, no sentido positivo do $z$, onde $F(z)$ e a magnitude da força. Na superfície inferior em $z+dz$ a força é no sentido negativo do $z$, $\vec{F}(z+dz)=-F(z+dz)\boldsymbol{\hat{k}}$, onde $F(z+dz)$ é a magnitude da força. A força gravitacional que acuta no cilindro infinitesimal é dada por $F_g=(dM)g\boldsymbol{\hat{k}}=(\rho dV)g\boldsymbol{\hat{k}}=\rho Adzg\boldsymbol{\hat{k}}$. Existem tamtém forças radiais que cuja sua soma é zero. O diagrama do cilindro infinitesimal pode ser visto na figura  \@ref(fig:imghidros3)
+
+
+
+
+
+
+
+```{r imghidros3, fig.cap='Diagrama de forças no cilindro infinitesimal', out.width='70%',fig.align='center', echo=FALSE}
+knitr::include_graphics("img/hidros_3.png")
+
+```
+
+
+
+A somo total das forças é zero (segunda Lei de Newton). Então na direcção $+\boldsymbol{\hat{k}}$
+
+
+\begin{equation}
+F(z)-F(z+dz)+\rho Adzg=0
+(\#eq:hidros6)
+\end{equation}
+
+ao dividir tudo por $A$
+
+\begin{equation}
+P(z)-P(z+dz)+\rho dzg=0
+(\#eq:hidros7)
+\end{equation}
+
+reformulando a equação \@ref(eq:hidros7)
+
+
+\begin{equation}
+\frac{P(z+dz)-P(z)}{dz}=\rho g
+(\#eq:hidros8)
+\end{equation}
+
+e fazendo o limite da \@ref(eq:hidros8) para $dz\rightarrow 0$,
+
+\begin{equation}
+\lim_{dz\rightarrow 0}\frac{P(z+dz)-P(z)}{dz}=\rho g
+(\#eq:hidros9)
+\end{equation}
+
+
+resulta numa equação diferencial
+
+
+\begin{equation}
+\frac{dP}{dz}=\rho g
+(\#eq:hidros10)
+\end{equation}
+
+
+Podemos, por fim, integrar a \@ref(eq:hidros10)
+
+
+\begin{equation}
+\int^{P(z)}_{P(z=0)}=\int^{z'=z}_{z'=0}\rho g dz'
+(\#eq:hidros11)
+\end{equation}
+
+O resultado dos integrais da \@ref(eq:hidros11) descreve uma mudança de pressão entre a profundidade $z$ e a superfície do fluido
+
+\begin{equation}
+P(z)-P(z=0)=\rho gz
+(\#eq:hidros12)
+\end{equation}
+
+também conhecida como a $\textbf{Lei de Pascal}$.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

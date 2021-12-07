@@ -23,6 +23,15 @@ eq:hidros2
 eq:hidros3
 eq:hidros4
 eq:hidros5
+fig:imghidros2
+fig:imghidros3
+eq:hidros6
+eq:hidros7
+eq:hidros8
+eq:hidros9
+eq:hidros10
+eq:hidros11
+eq:hidros12
 fig:imghemo1
 eq:darcy
 eq:resis
@@ -73,6 +82,7 @@ hidrostática
 introdução
 densidade
 pressão-num-fluido
+lei-de-pascal
 hidrodinâmica
 hemodinâmica
 o-fluxo-sanguíneo-é-uma-função-da-diferença-de-pressão-e-resistência

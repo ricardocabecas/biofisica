@@ -24,7 +24,7 @@
 <meta name="author" content="Ricardo Cabeças" />
 
 
-<meta name="date" content="2021-12-03" />
+<meta name="date" content="2021-12-07" />
 
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <meta name="apple-mobile-web-app-capable" content="yes" />
@@ -119,6 +119,7 @@
 <li class="chapter" data-level="5.1" data-path="hidrostática.html"><a href="hidrostática.html#introdução"><i class="fa fa-check"></i><b>5.1</b> Introdução</a></li>
 <li class="chapter" data-level="5.2" data-path="hidrostática.html"><a href="hidrostática.html#densidade"><i class="fa fa-check"></i><b>5.2</b> Densidade</a></li>
 <li class="chapter" data-level="5.3" data-path="hidrostática.html"><a href="hidrostática.html#pressão-num-fluido"><i class="fa fa-check"></i><b>5.3</b> Pressão num fluido</a></li>
+<li class="chapter" data-level="5.4" data-path="hidrostática.html"><a href="hidrostática.html#lei-de-pascal"><i class="fa fa-check"></i><b>5.4</b> Lei de Pascal</a></li>
 </ul></li>
 <li class="chapter" data-level="6" data-path="hidrodinâmica.html"><a href="hidrodinâmica.html"><i class="fa fa-check"></i><b>6</b> Hidrodinâmica</a></li>
 <li class="chapter" data-level="7" data-path="hemodinâmica.html"><a href="hemodinâmica.html"><i class="fa fa-check"></i><b>7</b> Hemodinâmica</a>
@@ -376,6 +377,59 @@ P=\lim_{A_S \to 0}\frac{F_{\perp}(S)}{A_S}
 1 \hspace{0.1cm}atm = 1,01325 \times 10^5 \hspace{0.1cm} Pa = 1,01325 \hspace{0.1cm}bar
 \tag{5.10}
 \end{equation}\]</span></p>
+</div>
+<div id="lei-de-pascal" class="section level2" number="5.4">
+<h2><span class="header-section-number">5.4</span> Lei de Pascal</h2>
+<p>Consideremos um fluido estático com densidade uniforme <span class="math inline">\(\rho\)</span>. Vamos escolher um sistema de coordenadas tal que o eixo do <span class="math inline">\(z\)</span> tem sentido positivo de cima para baixo e o ponto <span class="math inline">\(z=0\)</span> está situado na superfície do fluido. Vamos escolher um elemento desse fluido com volume cilíndrico infinitesimal a uma profundidade <span class="math inline">\(z\)</span> com uma área de secção <span class="math inline">\(A\)</span> e uma espessura <span class="math inline">\(dz\)</span> como mostra a figura <a href="hidrostática.html#fig:imghidros2">5.2</a>. O volume do elemtno é <span class="math inline">\(dV=Adz\)</span> ea massa do fluido contida no elemento é de <span class="math inline">\(dM=\rho Adz\)</span></p>
+<div class="figure" style="text-align: center"><span style="display:block;" id="fig:imghidros2"></span>
+<img src="img/hidros_2.png" alt="sistemas de coordenadas para um fluido estático" width="70%" />
+<p class="caption">
+Figura 5.2: sistemas de coordenadas para um fluido estático
+</p>
+</div>
+<p>A superfície do cilindro infinitesimal tem 3 faces, a face superior, inferior e lateral. Como o fluido está estático, as forças que actuam no cilindro infinitesimal são aplicadas perpendicularmente às faces, no sentido de fora para dentro. A força resultante destas forças é zero. A força que actua na superfície superior é <span class="math inline">\(\vec{F}(z)=F(z)\boldsymbol{\hat{k}}\)</span>, no sentido positivo do <span class="math inline">\(z\)</span>, onde <span class="math inline">\(F(z)\)</span> e a magnitude da força. Na superfície inferior em <span class="math inline">\(z+dz\)</span> a força é no sentido negativo do <span class="math inline">\(z\)</span>, <span class="math inline">\(\vec{F}(z+dz)=-F(z+dz)\boldsymbol{\hat{k}}\)</span>, onde <span class="math inline">\(F(z+dz)\)</span> é a magnitude da força. A força gravitacional que acuta no cilindro infinitesimal é dada por <span class="math inline">\(F_g=(dM)g\boldsymbol{\hat{k}}=(\rho dV)g\boldsymbol{\hat{k}}=\rho Adzg\boldsymbol{\hat{k}}\)</span>. Existem tamtém forças radiais que cuja sua soma é zero. O diagrama do cilindro infinitesimal pode ser visto na figura <a href="hidrostática.html#fig:imghidros3">5.3</a></p>
+<div class="figure" style="text-align: center"><span style="display:block;" id="fig:imghidros3"></span>
+<img src="img/hidros_3.png" alt="Diagrama de forças no cilindro infinitesimal" width="70%" />
+<p class="caption">
+Figura 5.3: Diagrama de forças no cilindro infinitesimal
+</p>
+</div>
+<p>A somo total das forças é zero (segunda Lei de Newton). Então na direcção <span class="math inline">\(+\boldsymbol{\hat{k}}\)</span></p>
+<p><span class="math display" id="eq:hidros6">\[\begin{equation}
+F(z)-F(z+dz)+\rho Adzg=0
+\tag{5.11}
+\end{equation}\]</span></p>
+<p>ao dividir tudo por <span class="math inline">\(A\)</span></p>
+<p><span class="math display" id="eq:hidros7">\[\begin{equation}
+P(z)-P(z+dz)+\rho dzg=0
+\tag{5.12}
+\end{equation}\]</span></p>
+<p>reformulando a equação <a href="hidrostática.html#eq:hidros7">(5.12)</a></p>
+<p><span class="math display" id="eq:hidros8">\[\begin{equation}
+\frac{P(z+dz)-P(z)}{dz}=\rho g
+\tag{5.13}
+\end{equation}\]</span></p>
+<p>e fazendo o limite da <a href="hidrostática.html#eq:hidros8">(5.13)</a> para <span class="math inline">\(dz\rightarrow 0\)</span>,</p>
+<p><span class="math display" id="eq:hidros9">\[\begin{equation}
+\lim_{dz\rightarrow 0}\frac{P(z+dz)-P(z)}{dz}=\rho g
+\tag{5.14}
+\end{equation}\]</span></p>
+<p>resulta numa equação diferencial</p>
+<p><span class="math display" id="eq:hidros10">\[\begin{equation}
+\frac{dP}{dz}=\rho g
+\tag{5.15}
+\end{equation}\]</span></p>
+<p>Podemos, por fim, integrar a <a href="hidrostática.html#eq:hidros10">(5.15)</a></p>
+<p><span class="math display" id="eq:hidros11">\[\begin{equation}
+\int^{P(z)}_{P(z=0)}=\int^{z&#39;=z}_{z&#39;=0}\rho g dz&#39;
+\tag{5.16}
+\end{equation}\]</span></p>
+<p>O resultado dos integrais da <a href="hidrostática.html#eq:hidros11">(5.16)</a> descreve uma mudança de pressão entre a profundidade <span class="math inline">\(z\)</span> e a superfície do fluido</p>
+<p><span class="math display" id="eq:hidros12">\[\begin{equation}
+P(z)-P(z=0)=\rho gz
+\tag{5.17}
+\end{equation}\]</span></p>
+<p>também conhecida como a <span class="math inline">\(\textbf{Lei de Pascal}\)</span>.</p>
 
 </div>
 </div>

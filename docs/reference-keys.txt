@@ -16,7 +16,7 @@ eq:dens2
 eq:dens3
 eq:dens4
 eq:dens5
-tab:unnamed-chunk-4
+tab:tab1
 fig:imghidros1
 eq:hidros1
 eq:hidros2
@@ -32,6 +32,7 @@ eq:hidros9
 eq:hidros10
 eq:hidros11
 eq:hidros12
+eq:hidros13
 fig:imghemo1
 eq:darcy
 eq:resis
@@ -83,6 +84,7 @@ introdução
 densidade
 pressão-num-fluido
 lei-de-pascal
+exemplo-1---pressão-num-oceano-da-terra
 hidrodinâmica
 hemodinâmica
 o-fluxo-sanguíneo-é-uma-função-da-diferença-de-pressão-e-resistência
@@ -94,3 +96,6 @@ lei-de-laplace
 a-velocidade-inversamente-relacionada-com-a-área-da-seção-transversal
 elasticidade-e-complacência
 aplicações-clínicas-e-fisiológicas
+fig:imghidros4
+principio-de-arquimedes
+eq:hidros14

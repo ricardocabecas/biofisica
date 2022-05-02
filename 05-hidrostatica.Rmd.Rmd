@@ -50,7 +50,7 @@ V=V_1+V_2
 
 Na seguinte tabela podemos observar os valores da densidade de vários materiais.
 
-```{r results='asis', echo=FALSE}
+```{r tab1, results='asis', echo=FALSE}
 library(kableExtra)
 x=c("Hélio","Ar (ao nível do mar)","Esferovite","Madeira","Etanol","Gelo","Água","Água do mar","Sangue","Alumínio","Ferro","Cobre","Chumbo","Mercúrio","Ouro","Plutónio","Ósmio")
 y=c("$0,179$","$1,20$","$75$","$0,7\\times 10^3$","$0.81\\times 10^3$","$0,92\\times 10^3$","$1,0\\times 10^3$","$1,03\\times 10^3$","$1,06\\times 10^3$","$2,7\\times 10^3$","$7,87\\times 10^3$","$8,94\\times 10^3$","$11,34\\times 10^3$","$13,55\\times 10^3$","$19,32\\times 10^3$","$19,84\\times 10^3$","$22,57\\times 10^3$")
@@ -58,7 +58,7 @@ y=c("$0,179$","$1,20$","$75$","$0,7\\times 10^3$","$0.81\\times 10^3$","$0,92\\t
 tt=cbind(x,y)
 tt=as.data.frame(tt)
 names(tt)<-c("Material","Densidade, $\\rho$ [$kg/m^3$]")
-kable(tt, caption = "Densidade de vários materiais")
+kable(tt, caption = " Densidade de vários materiais")
 ```
 
 
@@ -201,18 +201,48 @@ P(z)-P(z=0)=\rho gz
 também conhecida como a $\textbf{Lei de Pascal}$.
 
 
+## Exemplo 1 -  Pressão num oceano da Terra
+
+Qual é a diferença de pressão entre a superfície do oceano e uma profundidade de 4km?
+
+$\textbf{Solução:}$ Começamos por assumir que a densidade da água é uniforme no oceano e como tal podemos usar a Lei de Pascal (equação \@ref(eq:hidros12)) para determinar a pressão. $\rho=1,03\times10^3$ kg/m$^{3}$ será a densidade da água do oceano (Tabela \@ref(tab:tab1)). Então
+
+\begin{equation}
+\begin{aligned}
+P(z)-P(z=0) &=\rho gz \\
+& =(1,03\times10^{-3} \hspace{0.1cm}kg/m^3)(9,8 \hspace{0.1cm}m/s^2)(4\times 10^3\hspace{0.1cm} m)\\
+& =40\times 10^6 Pa
+\end{aligned}
+(\#eq:hidros13)
+\end{equation}
 
 
+## Principio de Arquimedes
+
+  
+Quando colocamos um pedaço de madeira maciça na água, a madeira flutua na superfície. A densidade da maioria das madeiras é menor do que a densidade da água e, portanto, o fato de a madeira flutuar não parece tão surpreendente. No entanto, objectos como navios, construídos a partir de materiais como o aço, que é muito mais denso do que a água, também flutuam, o que à primeira vista parece ser mais surpreendente. Em ambos os casos, quando o objecto flutuante está em repouso, deve haver alguma outra força que equilibre exactamente a força gravitacional. Esse equilíbrio de forças também é válido para o próprio fluido.
+
+Considere um fluido estático com densidade uniforme $\rho_f$. Considere um elemento de volume arbitrário de um fluido com volume $V$ e massa $m_f=\rho_f V$. A força gravitacional actua no elemento de volume, no sentido descendente, e é dado por $\vec{F_g}=-\rho_f Vg\boldsymbol{\hat{k}}$, onde $\boldsymbol{\hat{k}}$ é o vector unitário no sentido ascendente. A pressão na superfície $S$ do elemento de Volume é perpendicular à superfície (figura \@ref(fig:imghidros4)A). Então em cada elemento de área da superfície existe uma força que actua perpendicularmente à superfície.
+ 
 
 
+```{r imghidros4, fig.cap='A - forças prependiculares à superfície do elemento de volume; B - Diagrama das forças que actuam no elemento de volume, força gravitica $\\vec{F_g}$ e a impulção $\\vec{I}$', out.width='100%',fig.align='center', echo=FALSE}
+knitr::include_graphics("img/hidros_4.png")
+
+```
 
 
+Seja $\vec{I}$ a força resultante, chamada de \textbf{impulsão}, na superfície do elemento de volume devido à pressão do fluido. A impulsão deve criar um equilibrio com a força gravitica porque o fluido está em equilíbrio estático (figura \@ref(fig:imghidros4)B). 
 
+\begin{equation}
 
+\vec{0}=\vec{I}+\vec{F}_g=\vec{I}-\rho_f Vg\boldsymbol{\hat{k}}
+(\#eq:hidros14)
+\end{equation}
 
+então a impulsão é
+\begin{equation}
+\vec{I}=\rho_f Vg\boldsymbol{\hat{k}}
+\end{equation}
 
-
-
-
-
-
+também chamado de \textbf{Princípio de Arquimedes}.

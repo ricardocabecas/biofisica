@@ -24,7 +24,7 @@
 <meta name="author" content="Ricardo Cabeças" />
 
 
-<meta name="date" content="2021-12-07" />
+<meta name="date" content="2021-12-13" />
 
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <meta name="apple-mobile-web-app-capable" content="yes" />
@@ -120,6 +120,8 @@
 <li class="chapter" data-level="5.2" data-path="hidrostática.html"><a href="hidrostática.html#densidade"><i class="fa fa-check"></i><b>5.2</b> Densidade</a></li>
 <li class="chapter" data-level="5.3" data-path="hidrostática.html"><a href="hidrostática.html#pressão-num-fluido"><i class="fa fa-check"></i><b>5.3</b> Pressão num fluido</a></li>
 <li class="chapter" data-level="5.4" data-path="hidrostática.html"><a href="hidrostática.html#lei-de-pascal"><i class="fa fa-check"></i><b>5.4</b> Lei de Pascal</a></li>
+<li class="chapter" data-level="5.5" data-path="hidrostática.html"><a href="hidrostática.html#exemplo-1---pressão-num-oceano-da-terra"><i class="fa fa-check"></i><b>5.5</b> Exemplo 1 - Pressão num oceano da Terra</a></li>
+<li class="chapter" data-level="5.6" data-path="hidrostática.html"><a href="hidrostática.html#principio-de-arquimedes"><i class="fa fa-check"></i><b>5.6</b> Principio de Arquimedes</a></li>
 </ul></li>
 <li class="chapter" data-level="6" data-path="hidrodinâmica.html"><a href="hidrodinâmica.html"><i class="fa fa-check"></i><b>6</b> Hidrodinâmica</a></li>
 <li class="chapter" data-level="7" data-path="hemodinâmica.html"><a href="hemodinâmica.html"><i class="fa fa-check"></i><b>7</b> Hemodinâmica</a>
@@ -190,7 +192,7 @@ V=V_1+V_2
 <p>Na seguinte tabela podemos observar os valores da densidade de vários materiais.</p>
 <table>
 <caption>
-<span id="tab:unnamed-chunk-4">Tabela 5.1: </span>Densidade de vários materiais
+<span id="tab:tab1">Tabela 5.1: </span> Densidade de vários materiais
 </caption>
 <thead>
 <tr>
@@ -430,6 +432,41 @@ P(z)-P(z=0)=\rho gz
 \tag{5.17}
 \end{equation}\]</span></p>
 <p>também conhecida como a <span class="math inline">\(\textbf{Lei de Pascal}\)</span>.</p>
+</div>
+<div id="exemplo-1---pressão-num-oceano-da-terra" class="section level2" number="5.5">
+<h2><span class="header-section-number">5.5</span> Exemplo 1 - Pressão num oceano da Terra</h2>
+<p>Qual é a diferença de pressão entre a superfície do oceano e uma profundidade de 4km?</p>
+<p><span class="math inline">\(\textbf{Solução:}\)</span> Começamos por assumir que a densidade da água é uniforme no oceano e como tal podemos usar a Lei de Pascal (equação <a href="hidrostática.html#eq:hidros12">(5.17)</a>) para determinar a pressão. <span class="math inline">\(\rho=1,03\times10^3\)</span> kg/m<span class="math inline">\(^{3}\)</span> será a densidade da água do oceano (Tabela <a href="hidrostática.html#tab:tab1">5.1</a>). Então</p>
+<p><span class="math display" id="eq:hidros13">\[\begin{equation}
+\begin{aligned}
+P(z)-P(z=0) &amp;=\rho gz \\
+&amp; =(1,03\times10^{-3} \hspace{0.1cm}kg/m^3)(9,8 \hspace{0.1cm}m/s^2)(4\times 10^3\hspace{0.1cm} m)\\
+&amp; =40\times 10^6 Pa
+\end{aligned}
+\tag{5.18}
+\end{equation}\]</span></p>
+</div>
+<div id="principio-de-arquimedes" class="section level2" number="5.6">
+<h2><span class="header-section-number">5.6</span> Principio de Arquimedes</h2>
+<p>Quando colocamos um pedaço de madeira maciça na água, a madeira flutua na superfície. A densidade da maioria das madeiras é menor do que a densidade da água e, portanto, o fato de a madeira flutuar não parece tão surpreendente. No entanto, objectos como navios, construídos a partir de materiais como o aço, que é muito mais denso do que a água, também flutuam, o que à primeira vista parece ser mais surpreendente. Em ambos os casos, quando o objecto flutuante está em repouso, deve haver alguma outra força que equilibre exactamente a força gravitacional. Esse equilíbrio de forças também é válido para o próprio fluido.</p>
+<p>Considere um fluido estático com densidade uniforme <span class="math inline">\(\rho_f\)</span>. Considere um elemento de volume arbitrário de um fluido com volume <span class="math inline">\(V\)</span> e massa <span class="math inline">\(m_f=\rho_f V\)</span>. A força gravitacional actua no elemento de volume, no sentido descendente, e é dado por <span class="math inline">\(\vec{F_g}=-\rho_f Vg\boldsymbol{\hat{k}}\)</span>, onde <span class="math inline">\(\boldsymbol{\hat{k}}\)</span> é o vector unitário no sentido ascendente. A pressão na superfície <span class="math inline">\(S\)</span> do elemento de Volume é perpendicular à superfície (figura <a href="hidrostática.html#fig:imghidros4">5.4</a>A). Então em cada elemento de área da superfície existe uma força que actua perpendicularmente à superfície.</p>
+<div class="figure" style="text-align: center"><span style="display:block;" id="fig:imghidros4"></span>
+<img src="img/hidros_4.png" alt="A - forças prependiculares à superfície do elemento de volume; B - Diagrama das forças que actuam no elemento de volume, força gravitica $\vec{F_g}$ e a impulção $\vec{I}$" width="100%" />
+<p class="caption">
+Figura 5.4: A - forças prependiculares à superfície do elemento de volume; B - Diagrama das forças que actuam no elemento de volume, força gravitica <span class="math inline">\(\vec{F_g}\)</span> e a impulção <span class="math inline">\(\vec{I}\)</span>
+</p>
+</div>
+<p>Seja <span class="math inline">\(\vec{I}\)</span> a força resultante, chamada de , na superfície do elemento de volume devido à pressão do fluido. A impulsão deve criar um equilibrio com a força gravitica porque o fluido está em equilíbrio estático (figura <a href="hidrostática.html#fig:imghidros4">5.4</a>B).</p>
+<p><span class="math display" id="eq:hidros14">\[\begin{equation}
+
+\vec{0}=\vec{I}+\vec{F}_g=\vec{I}-\rho_f Vg\boldsymbol{\hat{k}}
+\tag{5.19}
+\end{equation}\]</span></p>
+<p>então a impulsão é
+<span class="math display">\[\begin{equation}
+\vec{I}=\rho_f Vg\boldsymbol{\hat{k}}
+\end{equation}\]</span></p>
+<p>também chamado de .</p>
 
 </div>
 </div>
